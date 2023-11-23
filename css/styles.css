@@ -13,8 +13,27 @@ h2 {
     color: #d2b48c;
 }
 img {
-  border: 10px inset rgb(255, 255, 255);
+  border: 10px inset rgb(240,128,128);
   float: none;
   margin-right: 2em;
+}
+aside {
+  background:#ff7f50;
+  border: 2px dotted brown;
+  float: inherit;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+header nav li a {
+  background-color:#f4a460;
+  border: 2px solid #d2691e;
+  color: rgb(6, 6, 6);
+  display: inline-block;
+  padding: 1em;
+  text-decoration:underline;
+}
+
+header nav li a:hover {
+  background-color: #d2691e;
 }
 

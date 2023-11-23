@@ -3,19 +3,24 @@ h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 0.1em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55,0);
   }
 body {
-    background-color:  #ffe4e1;
+    background:#ffe4e1;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
   }
 h2 {
-    color: #d2b48c;
+    color:#8b4513;
+}
+h3 {
+  color:#deb887
 }
 img {
   border: 10px inset rgb(240,128,128);
   float: none;
   margin-right: 2em;
+  box-shadow: 12px 5px 15px 5px rgba(0,0,0,0.75);
 }
 aside {
   background:#ff7f50;
@@ -27,7 +32,7 @@ aside {
 header nav li a {
   background-color:#f4a460;
   border: 2px solid #d2691e;
-  color: rgb(6, 6, 6);
+  color: rgb(0, 0, 0);
   display: inline-block;
   padding: 1em;
   text-decoration:underline;
@@ -36,4 +41,6 @@ header nav li a {
 header nav li a:hover {
   background-color: #d2691e;
 }
+
+
 

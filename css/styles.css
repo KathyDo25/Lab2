@@ -23,17 +23,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 12px 5px 15px 5px rgba(0,0,0,0.75);
-}
-figure {
-  display: inline-block;
-  border: 1px dotted gray;
-  margin: 20px; /* adjust as needed */
-}
-figure img {
-  vertical-align: top;
+  padding: 19px 19px 85px 19px
 }
 figure figcaption {
-  border: 1px dotted blue;
+  color:#8b4513;
   text-align: center;
 }
 aside {
@@ -56,6 +49,14 @@ header nav li a {
 header nav li a:hover {
   background-color: #d2691e;
 }
-
+table, th, td {
+  border: 1px solid;
+}
+table {
+  width: 100%
+}
+th{
+  text-align: center;
+}
 
 

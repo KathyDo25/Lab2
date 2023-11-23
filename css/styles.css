@@ -5,11 +5,44 @@ h1 {
     letter-spacing: 0.1em;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55);
   }
+nav{
+  height: 5vh;
+  width:20vw;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+a{
+  position: relative;
+  text-decoration: none;
+  font-family:monospace;
+  color: #8b4513;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+a::after{
+  content:"";
+  position: absolute;
+  background-color: #deb887;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+a:hover{
+  color: #deb887;
+}
+a:hover::after{
+  width: 100%;
+}
 body {
     background:#ffe4e1;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 h2 {
     color:#8b4513;
 }
@@ -35,19 +68,6 @@ aside {
   float: inherit;
   -webkit-border-radius: 20px 19px 0px 0px;
 border-radius: 20px 19px 0px 0px;
-}
-header nav li a {
-  background-color:#f4a460;
-  border: 2px solid #d2691e;
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  padding: 1em;
-  text-decoration:underline; 
-  font-size: 16px;
-} 
-
-header nav li a:hover {
-  background-color: #d2691e;
 }
 table, th, td {
   border: 1px solid;

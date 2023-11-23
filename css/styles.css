@@ -1,0 +1,20 @@
+h1 {
+    color: #8b4513;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1em;
+  }
+body {
+    background-color:  #ffe4e1;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+h2 {
+    color: #d2b48c;
+}
+img {
+  border: 10px inset rgb(255, 255, 255);
+  float: none;
+  margin-right: 2em;
+}
+

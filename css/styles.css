@@ -19,15 +19,18 @@ h3 {
 img {
   border: 10px inset rgb(240,128,128);
   float: none;
-  margin-right: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 12px 5px 15px 5px rgba(0,0,0,0.75);
+  ;
 }
 aside {
   background:#ff7f50;
   border: 2px dotted brown;
   float: inherit;
-  padding: 0.5em;
-  border-radius: 4px;
+  -webkit-border-radius: 20px 19px 0px 0px;
+border-radius: 20px 19px 0px 0px;
 }
 header nav li a {
   background-color:#f4a460;
@@ -35,12 +38,14 @@ header nav li a {
   color: rgb(0, 0, 0);
   display: inline-block;
   padding: 1em;
-  text-decoration:underline;
-}
+  text-decoration:underline; 
+  font-size: 16px;
+} 
 
 header nav li a:hover {
   background-color: #d2691e;
 }
 
+}
 
 

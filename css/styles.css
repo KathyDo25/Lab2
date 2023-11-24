@@ -1,0 +1,150 @@
+h1 {
+    color: #8b4513;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 40pt;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55);
+  }
+
+nav{
+  background: rgb(240,128,128);
+  float:inherit;
+  height: 5vh;
+  width:20vw;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+a{
+  position: relative;
+  text-decoration: none;
+  font-family:monospace;
+  color: #8b4513;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+a::after{
+  content:"";
+  position: absolute;
+  background-color: #deb887;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+a:hover{
+  color: #deb887;
+}
+a:hover::after{
+  width: 100%;
+}
+
+body {
+    background:#ffe4e1;
+    font-size: 12pt;
+    font-family: monospace;
+}
+body, html {
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:10%;
+  margin-top:1%;
+  }
+
+h2 {
+    color:#8b4513;
+    font-size: 23pt;
+}
+
+h3 {
+  color:rgb(240,128,128);
+}
+
+h4{
+  color: #8b4513;
+  font-size: 15pt;
+  text-decoration: underline;
+}
+
+img {
+  border: 10px inset rgb(240,128,128);
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 12px 5px 15px 5px rgba(0,0,0,0.75);
+  padding: 19px 19px 150px 19px
+}
+figcaption{
+  text-align: center;
+  color: #8b4513;
+  border-radius: 20px;
+  border-radius: 20px;
+}
+section#Goals > p:first-of-type::first-letter {
+  background-color: #deb887;
+  color: white;
+  font-size: 3em;
+  font-style: italic;
+  padding: 5px 10px;
+  border-radius: 20px 19px 0px 0px;
+  border-radius: 20px 19px 0px 0px;
+}
+
+aside {
+  background:#ffa07a;
+  border: 2px brown;
+  text-align: center;
+  float: inherit;
+  border-radius: 20px 19px 0px 0px;
+  border-radius: 20px 19px 0px 0px;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+table {
+  width: 100%
+}
+th{
+  text-align: center;
+}
+footer{
+  background-color:rgb(240,128,128);
+  text-align: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
+
+
+
+
+
+
+

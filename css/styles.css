@@ -6,6 +6,7 @@ h1 {
     font-size: 40pt;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55);
   }
+
 nav{
   background: rgb(240,128,128);
   background-size: 100%;
@@ -42,6 +43,7 @@ a:hover{
 a:hover::after{
   width: 100%;
 }
+
 body {
     background:#ffe4e1;
     font-size: 12pt;
@@ -53,16 +55,22 @@ body, html {
   margin-bottom:10%;
   margin-top:1%;
   }
+
 h2 {
     color:#8b4513;
     font-size: 23pt;
 }
+
 h3 {
-  color:#deb887
+  color:rgb(240,128,128);
 }
+
 h4{
   color: #8b4513;
+  font-size: 15pt;
+  text-decoration: underline;
 }
+
 img {
   border: 10px inset rgb(240,128,128);
   float: none;
@@ -75,15 +83,29 @@ img {
 figcaption{
   text-align: center;
   color: #8b4513;
+  background-color: #deb887;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+section#Goals > p:first-of-type::first-letter {
+  background-color: #deb887;
+  color: white;
+  font-size: 3em;
+  font-style: italic;
+  padding: 5px 10px;
+  -webkit-border-radius: 20px 19px 0px 0px;
+  border-radius: 20px 19px 0px 0px;
 }
 
 aside {
-  background:#ff7f50;
-  border: 2px dotted brown;
+  background:#ffa07a;
+  border: 2px brown;
+  text-align: center;
   float: inherit;
   -webkit-border-radius: 20px 19px 0px 0px;
-border-radius: 20px 19px 0px 0px;
+  border-radius: 20px 19px 0px 0px;
 }
+
 table, th, td {
   border: 1px solid;
 }
@@ -93,5 +115,7 @@ table {
 th{
   text-align: center;
 }
+
+
 
 

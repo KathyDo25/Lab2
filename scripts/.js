@@ -2,10 +2,11 @@
 const currentYear = new Date().getFullYear();
 document.getElementById('').innerHTML=currentYear;
 
-//Allert Button
-document.getElementById('btn-alert').addEventListener('click',function() {
-    alert('Hi everyone!');
+//Alert Button
+document.getElementById('btn-alert').addEventListener('click',function(){
+    alert('Hello Everyone!!');
 });
+
 
 // Hover Button
 const hoverButton = document.getElementById('btn-alert');
@@ -46,3 +47,4 @@ for (let i=initialValue; i<=stopValue; i++) {
     listItem.textContent=i%2 === 0? 'even':'odd';
     numbersList.appendChild(listItem);
 }
+

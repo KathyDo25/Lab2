@@ -6,8 +6,6 @@ document.getElementById('').innerHTML=currentYear;
 document.getElementById('btn-alert').addEventListener('click',function(){
     alert('Hello Everyone!!');
 });
-
-
 // Hover Button
 const hoverButton = document.getElementById('btn-alert');
 

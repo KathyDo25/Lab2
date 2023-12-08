@@ -141,7 +141,8 @@ footer{
 @media only screen and (min-width: 1200px) {
   .example {background: pink;}
 }
-
+.even{color:#FF2D95}
+.odd{color:#ffa07a}
 
 
 

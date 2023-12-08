@@ -1,6 +1,6 @@
 // Footer - Display current year
 const currentYear = new Date().getFullYear();
-document.getElementById('').innerHTML=currentYear;
+document.getElementById('currentYear').innerHTML=currentYear;
 
 //Alert Button
 document.getElementById('btn-alert').addEventListener('click',function(){
@@ -23,7 +23,7 @@ const counterText = document.getElementById('txt-counter');
 
 counterButton.onclick = () => {
     count = count + 1;
-    counterText.innerHTML='Number:${count}';
+    counterText.innerHTML=`Number:${count}`;
     // If-else statement
     if (count % 2 === 0){
         counterText.classList.remove('odd');
@@ -43,6 +43,6 @@ const stopValue=100;
 for (let i=initialValue; i<=stopValue; i++) {
     const listItem=document.createElement('li');
     listItem.textContent=i%2 === 0? 'even':'odd';
-    numbersList.appendChild(listItem);
+    numberList.appendChild(listItem);
 }
 

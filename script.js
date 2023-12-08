@@ -10,10 +10,10 @@ document.getElementById('btn-alert').addEventListener('click',function(){
 const hoverButton = document.getElementById('btn-alert');
 
 hoverButton.onmouseover = ()=>{
-    hoverButton.innerText='Click Me!';
+    hoverButton.innerText='Click!';
 };
 hoverButton.onmouseleave = () => {
-    hoverButton.innerText='Hover me!';
+    hoverButton.innerText='Come here!';
 };
 
 // Incremensing Button
